@@ -124,6 +124,7 @@ code --install-extension factorio-modding-tools-0.0.1.vsix
 
 ### 0.0.2
 - Автозаполнение локализации
+- Команда Package Mod as ZIP
 ---
 
 ## 📂 License

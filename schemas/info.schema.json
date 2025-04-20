@@ -1,0 +1,65 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Factorio Mod info.json",
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["name", "version", "title", "author"],
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "Internal mod name (alphanumeric, dashes, underscores, max 100 chars)",
+        "minLength": 1,
+        "pattern": "^[A-Za-z0-9_-]+$"
+      },
+      "version": {
+        "type": "string",
+        "description": "Mod version in Major.Middle.Minor, each 0–65535",
+        "pattern": "^\\d+\\.\\d+\\.\\d+$"
+      },
+      "title": {
+        "type": "string",
+        "description": "Display name (max 100 chars)",
+        "minLength": 1,
+        "maxLength": 100
+      },
+      "author": {
+        "type": "string",
+        "description": "Author of the mod (free-form)"
+      },
+      "contact": {
+        "type": "string",
+        "description": "Contact info, e.g. email or Discord"
+      },
+      "homepage": {
+        "type": "string",
+        "description": "URL of mod homepage or repo"
+      },
+      "description": {
+        "type": "string",
+        "description": "Short in‑game description"
+      },
+      "factorio_version": {
+        "type": "string",
+        "description": "Factorio version supported, major.minor (e.g. \"1.1\")",
+        "pattern": "^\\d+\\.\\d+$",
+        "default": "2.0"
+      },
+      "dependencies": {
+        "type": "array",
+        "description": "Other mods this mod depends on or conflicts with",
+        "items": {
+          "type": "string",
+          "pattern": "^[!\\?~\\(\\?\\)]?\\s*[A-Za-z0-9_-]+(\\s*[<>=]+\\s*\\d+\\.\\d+\\.\\d+)?$"
+        },
+        "default": ["base"]
+      },
+      "quality_required": { "type": "boolean", "description": "Requires Space Age DLC feature" },
+      "space_travel_required":   { "type": "boolean", "description": "Requires Space Travel DLC feature" },
+      "spoiling_required":       { "type": "boolean", "description": "Requires Spoiling DLC feature" },
+      "freezing_required":       { "type": "boolean", "description": "Requires Freezing DLC feature" },
+      "segmented_units_required":{ "type": "boolean", "description": "Requires Segmented Units DLC feature" },
+      "expansion_shaders_required": { "type": "boolean", "description": "Requires Expansion Shaders DLC feature" }
+    },
+    "default": {}
+  }
+  

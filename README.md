@@ -5,8 +5,8 @@ _The Ultimate VS Code Extension for Factorio Modding_
 [![VS Code](https://img.shields.io/badge/VSCODE-Extension-blue?logo=visualstudiocode)](https://marketplace.visualstudio.com/)
 [![Status](https://img.shields.io/badge/status-in--development-yellow)](https://github.com/Guns-lingers/factorio-modding-tools)
 [![Version](https://img.shields.io/badge/version-0.0.1-blue)](https://github.com/Guns-lingers/factorio-modding-tools/releases)
-[![Last Commit](https://img.shields.io/github/last-commit/Guns-lingers/factorio-modding-tools)](https://github.com/yourusername/factorio-modding-tools/commits)
-[![Stars](https://img.shields.io/github/stars/Guns-lingers/factorio-modding-tools?style=social)](https://github.com/yourusername/factorio-modding-tools/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/Guns-lingers/factorio-modding-tools)](https://github.com/Guns-lingers/factorio-modding-tools/commits)
+[![Stars](https://img.shields.io/github/stars/Guns-lingers/factorio-modding-tools?style=social)](https://github.com/Guns-lingers/factorio-modding-tools/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Language: Lua](https://img.shields.io/badge/language-Lua-blue.svg)](https://www.lua.org/)
 

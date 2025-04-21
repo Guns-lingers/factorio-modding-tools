@@ -6,6 +6,7 @@ import AdmZip from 'adm-zip';
 
 import { createStructure, defaultFactorioMod, StructureConfig } from './generateModStructure';
 import { allTypes, prototypeFields } from './data';
+import { ConfigCompletionProvider } from './configCompletion';
 
 export function activate(context: vscode.ExtensionContext) {
 
@@ -106,6 +107,14 @@ export function activate(context: vscode.ExtensionContext) {
 		'"' // trigger on quote
 	  );
 	  context.subscriptions.push(provider);
+	  
+	    // Регистрируем провайдер для файлов .cfg
+		const providerconf = vscode.languages.registerCompletionItemProvider(
+			{ pattern: '**/*.cfg', scheme: 'file' },
+			new ConfigCompletionProvider(),
+			'[' // триггер при вводе '['
+		);
+		context.subscriptions.push(providerconf);
 }
 
 export function deactivate() {}

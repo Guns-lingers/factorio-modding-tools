@@ -4,7 +4,7 @@ _The Ultimate VS Code Extension for Factorio Modding_
 
 [![VS Code](https://img.shields.io/badge/VSCODE-Extension-blue?logo=visualstudiocode)](https://marketplace.visualstudio.com/)
 [![Status](https://img.shields.io/badge/status-in--development-yellow)](https://github.com/Guns-lingers/factorio-modding-tools)
-[![Version](https://img.shields.io/badge/version-0.0.1-blue)](https://github.com/Guns-lingers/factorio-modding-tools/releases)
+[![Version](https://img.shields.io/badge/version-0.0.2-blue)](https://github.com/Guns-lingers/factorio-modding-tools/releases)
 [![Last Commit](https://img.shields.io/github/last-commit/Guns-lingers/factorio-modding-tools)](https://github.com/Guns-lingers/factorio-modding-tools/commits)
 [![Stars](https://img.shields.io/github/stars/Guns-lingers/factorio-modding-tools?style=social)](https://github.com/Guns-lingers/factorio-modding-tools/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -20,7 +20,7 @@ _The Ultimate VS Code Extension for Factorio Modding_
 ## 🚀 Features
 
 ### 🏗️ Create Mod Structure
-- Команда **Create Mod Structure** (`Ctrl+Shift+P`)
+- Команда **Factorio Mod: Create Mod Structure** (`Ctrl+Shift+P`)
 - Автоматически генерирует каркас мода:
   ```
   my-mod/
@@ -46,6 +46,14 @@ _The Ultimate VS Code Extension for Factorio Modding_
   ```
   VS Code предлагает список прототипов (`item`, `recipe`, `technology` и др.)
 - После выбора — вставляется шаблон с обязательными полями и плейсхолдерами.
+
+### 🌐 Localization Autocomplete
+- Автозаполнение для файлов локализации `.cfg`
+- При вводе секции (`[item-name]`, `[recipe-name]` и др.) выводится описание и примеры ключ=значение.
+
+### 🛠️ Package Mod as ZIP
+- Команда **Factorio Mod: Package Mod as ZIP** (`Ctrl+Shift+P`)
+- Упаковывает текущий мод в `.zip`, добавляет все файлы и открывает папку с архивом.
 
 ### 📝 JSON Autocomplete & Validation
 - Поддержка схемы `info.json`
@@ -114,6 +122,9 @@ code --install-extension factorio-modding-tools-0.0.1.vsix
 - Автокомплит `type = "..."` в Lua
 - Поддержка и схема `info.json`
 
+### 0.0.2
+- Автозаполнение локализации
+- Команда Package Mod as ZIP
 ---
 
 ## 📂 License

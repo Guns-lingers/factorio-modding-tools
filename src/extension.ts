@@ -5,7 +5,7 @@ import * as childProcess from 'child_process';
 import AdmZip from 'adm-zip';
 
 import { createStructure, defaultFactorioMod, StructureConfig } from './generateModStructure';
-import { allTypes, prototypeFields } from './data';
+import { allTypes, prototypeFields } from './prototypes/data';
 import { ConfigCompletionProvider } from './configCompletion';
 
 export function activate(context: vscode.ExtensionContext) {

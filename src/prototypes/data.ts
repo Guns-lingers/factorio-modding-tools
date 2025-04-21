@@ -1,4 +1,4 @@
-import { getModName } from './utils/utils';
+import { getModName } from '../utils/utils';
 
 export interface PrototypeFields {
     [field: string]: string;

@@ -28,7 +28,9 @@
     ],
     "jsonValidation": [
       {
-        "fileMatch": ["info.json"],
+        "fileMatch": [
+          "info.json"
+        ],
         "url": "./schemas/info.schema.json"
       }
     ]
@@ -62,6 +64,7 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
-    "adm-zip": "^0.5.16"
+    "adm-zip": "^0.5.16",
+    "node-fetch": "^3.3.2"
   }
 }

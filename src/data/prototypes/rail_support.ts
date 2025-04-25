@@ -1,0 +1,26 @@
+// AUTO‑GENERATED — do not edit
+export const rail_support = {
+  "build_grid_size": "${1:build_grid_size}",
+  "collision_mask_allow_on_deep_oil_ocean": "${2:collision_mask_allow_on_deep_oil_ocean}",
+  "elevated_selection_boxes": "${3:elevated_selection_boxes}",
+  "graphics_set": "${4:graphics_set}",
+  "not_buildable_if_no_rails": "${5:not_buildable_if_no_rails}",
+  "snap_to_spots_distance": "${6:snap_to_spots_distance}",
+  "support_range": "${7:support_range}",
+  "collision_box": "${8:collision_box}",
+  "corpse": "${9:corpse}",
+  "drawing_box_vertical_extension": "${10:drawing_box_vertical_extension}",
+  "dying_explosion": "${11:dying_explosion}",
+  "flags": "${12:flags}",
+  "hidden": "${13:hidden}",
+  "icon": "${14:icon}",
+  "icons": "${15:icons}",
+  "localised_name": "${16:localised_name}",
+  "max_health": "${17:max_health}",
+  "minable": "${18:minable}",
+  "name": "${19:name}",
+  "resistances": "${20:resistances}",
+  "selection_box": "${21:selection_box}",
+  "surface_conditions": "${22:surface_conditions}",
+  "type": "${23:type}"
+};

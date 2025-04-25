@@ -1,0 +1,26 @@
+// AUTO‑GENERATED — do not edit
+export const proxy_container = {
+  "circuit_connector": "${1:circuit_connector}",
+  "circuit_wire_max_distance": "${2:circuit_wire_max_distance}",
+  "draw_circuit_wires": "${3:draw_circuit_wires}",
+  "draw_copper_wires": "${4:draw_copper_wires}",
+  "draw_inventory_content": "${5:draw_inventory_content}",
+  "picture": "${6:picture}",
+  "close_sound": "${7:close_sound}",
+  "collision_box": "${8:collision_box}",
+  "corpse": "${9:corpse}",
+  "damaged_trigger_effect": "${10:damaged_trigger_effect}",
+  "dying_explosion": "${11:dying_explosion}",
+  "fast_replaceable_group": "${12:fast_replaceable_group}",
+  "flags": "${13:flags}",
+  "hidden": "${14:hidden}",
+  "icon_draw_specification": "${15:icon_draw_specification}",
+  "icons": "${16:icons}",
+  "impact_category": "${17:impact_category}",
+  "max_health": "${18:max_health}",
+  "minable": "${19:minable}",
+  "name": "${20:name}",
+  "open_sound": "${21:open_sound}",
+  "selection_box": "${22:selection_box}",
+  "type": "${23:type}"
+};

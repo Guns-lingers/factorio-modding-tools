@@ -1,0 +1,28 @@
+// AUTO‑GENERATED — do not edit
+export const lane_splitter = {
+  "structure": "${1:structure}",
+  "structure_animation_movement_cooldown": "${2:structure_animation_movement_cooldown}",
+  "structure_animation_speed_coefficient": "${3:structure_animation_speed_coefficient}",
+  "structure_patch": "${4:structure_patch}",
+  "animation_speed_coefficient": "${5:animation_speed_coefficient}",
+  "belt_animation_set": "${6:belt_animation_set}",
+  "close_sound": "${7:close_sound}",
+  "collision_box": "${8:collision_box}",
+  "corpse": "${9:corpse}",
+  "damaged_trigger_effect": "${10:damaged_trigger_effect}",
+  "dying_explosion": "${11:dying_explosion}",
+  "fast_replaceable_group": "${12:fast_replaceable_group}",
+  "flags": "${13:flags}",
+  "hidden": "${14:hidden}",
+  "icon_draw_specification": "${15:icon_draw_specification}",
+  "icons": "${16:icons}",
+  "max_health": "${17:max_health}",
+  "minable": "${18:minable}",
+  "name": "${19:name}",
+  "open_sound": "${20:open_sound}",
+  "resistances": "${21:resistances}",
+  "selection_box": "${22:selection_box}",
+  "speed": "${23:speed}",
+  "type": "${24:type}",
+  "working_sound": "${25:working_sound}"
+};

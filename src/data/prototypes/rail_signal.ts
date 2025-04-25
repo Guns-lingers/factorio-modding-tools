@@ -1,0 +1,26 @@
+// AUTO‑GENERATED — do not edit
+export const rail_signal = {
+  "circuit_wire_max_distance": "${1:circuit_wire_max_distance}",
+  "close_sound": "${2:close_sound}",
+  "collision_box": "${3:collision_box}",
+  "corpse": "${4:corpse}",
+  "damaged_trigger_effect": "${5:damaged_trigger_effect}",
+  "default_green_output_signal": "${6:default_green_output_signal}",
+  "default_orange_output_signal": "${7:default_orange_output_signal}",
+  "default_red_output_signal": "${8:default_red_output_signal}",
+  "dying_explosion": "${9:dying_explosion}",
+  "elevated_picture_set": "${10:elevated_picture_set}",
+  "factoriopedia_simulation": "${11:factoriopedia_simulation}",
+  "fast_replaceable_group": "${12:fast_replaceable_group}",
+  "flags": "${13:flags}",
+  "ground_picture_set": "${14:ground_picture_set}",
+  "icon": "${15:icon}",
+  "localised_name": "${16:localised_name}",
+  "max_health": "${17:max_health}",
+  "minable": "${18:minable}",
+  "name": "${19:name}",
+  "open_sound": "${20:open_sound}",
+  "selection_box": "${21:selection_box}",
+  "surface_conditions": "${22:surface_conditions}",
+  "type": "${23:type}"
+};

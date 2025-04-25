@@ -1,0 +1,25 @@
+// AUTO‑GENERATED — do not edit
+export const capsule = {
+  "capsule_action": "${1:capsule_action}",
+  "radius_color": "${2:radius_color}",
+  "auto_recycle": "${3:auto_recycle}",
+  "default_import_location": "${4:default_import_location}",
+  "drop_sound": "${5:drop_sound}",
+  "flags": "${6:flags}",
+  "fuel_category": "${7:fuel_category}",
+  "fuel_value": "${8:fuel_value}",
+  "icon": "${9:icon}",
+  "inventory_move_sound": "${10:inventory_move_sound}",
+  "localised_name": "${11:localised_name}",
+  "name": "${12:name}",
+  "order": "${13:order}",
+  "pick_sound": "${14:pick_sound}",
+  "pictures": "${15:pictures}",
+  "send_to_orbit_mode": "${16:send_to_orbit_mode}",
+  "spoil_result": "${17:spoil_result}",
+  "spoil_ticks": "${18:spoil_ticks}",
+  "stack_size": "${19:stack_size}",
+  "subgroup": "${20:subgroup}",
+  "type": "${21:type}",
+  "weight": "${22:weight}"
+};

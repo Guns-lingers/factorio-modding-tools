@@ -1,0 +1,27 @@
+// AUTO‑GENERATED — do not edit
+export const temporary_container = {
+  "alert_after_time": "${1:alert_after_time}",
+  "destroy_on_empty": "${2:destroy_on_empty}",
+  "time_to_live": "${3:time_to_live}",
+  "alert_when_damaged": "${4:alert_when_damaged}",
+  "close_sound": "${5:close_sound}",
+  "collision_box": "${6:collision_box}",
+  "collision_mask": "${7:collision_mask}",
+  "damaged_trigger_effect": "${8:damaged_trigger_effect}",
+  "dying_explosion": "${9:dying_explosion}",
+  "fast_replaceable_group": "${10:fast_replaceable_group}",
+  "flags": "${11:flags}",
+  "icon": "${12:icon}",
+  "impact_category": "${13:impact_category}",
+  "inventory_size": "${14:inventory_size}",
+  "max_health": "${15:max_health}",
+  "minable": "${16:minable}",
+  "name": "${17:name}",
+  "open_sound": "${18:open_sound}",
+  "order": "${19:order}",
+  "picture": "${20:picture}",
+  "remains_when_mined": "${21:remains_when_mined}",
+  "selection_box": "${22:selection_box}",
+  "subgroup": "${23:subgroup}",
+  "type": "${24:type}"
+};

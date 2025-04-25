@@ -6,7 +6,7 @@ _Лучшее расширение для моддинга Factorio в VS Code_
 
 [![VS Code](https://img.shields.io/badge/VSCODE-Extension-blue?logo=visualstudiocode)](https://marketplace.visualstudio.com/)
 [![Status](https://img.shields.io/badge/status-in--development-yellow)](https://github.com/Guns-lingers/factorio-modding-tools)
-[![Version](https://img.shields.io/badge/version-0.0.2-blue)](https://github.com/Guns-lingers/factorio-modding-tools/releases)
+[![Version](https://img.shields.io/badge/version-0.1.0-blue)](https://github.com/Guns-lingers/factorio-modding-tools/releases)
 [![Last Commit](https://img.shields.io/github/last-commit/Guns-lingers/factorio-modding-tools)](https://github.com/Guns-lingers/factorio-modding-tools/commits)
 [![Stars](https://img.shields.io/github/stars/Guns-lingers/factorio-modding-tools?style=social)](https://github.com/Guns-lingers/factorio-modding-tools/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)

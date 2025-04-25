@@ -42,12 +42,9 @@ It allows one-click mod structure generation, speeds up work with Lua prototypes
   ```
 
 ### 🤠 Lua Autocomplete
-- When typing:
-  ```lua
-  type = "
-  ```
-  VS Code suggests a list of prototypes (`item`, `recipe`, `technology`, etc.)
-- After selection, a template with required fields and placeholders is inserted.
+- **Only inside** `data:extend({ … })` blocks  
+- Typing `type = "` instantly shows **all** prototype types (from `prototypes/index.ts`)  
+- After picking a type and moving to a **new line**, suggests **only** the fields for that type **that you haven’t already entered**  
 
 ### 🌐 Localization Autocomplete
 - Autocomplete support for `.cfg` localization files.
@@ -135,6 +132,12 @@ Behavior can be adjusted via source code:
 ### 0.0.2
 - Localization autocomplete
 - Package Mod as ZIP command
+
+### 0.1.0
+- Full prototype field coverage (from Factorio’s data-raw dump)
+- Context-aware Lua completion inside `data:extend`
+- Filtering out fields you’ve already entered
+
 ---
 
 ## 📂 License

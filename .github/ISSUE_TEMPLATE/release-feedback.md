@@ -1,6 +1,8 @@
 ---
 title: "[Feedback][release {{ .release.tag_name }}]: "
-labels: ["feedback","release"]
+labels:
+  - feedback
+  - release
 ---
 
 ## Thanks for testing **{{ .release.tag_name }}**

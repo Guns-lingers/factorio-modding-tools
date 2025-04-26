@@ -30,15 +30,6 @@
 
 ---
 
-### **Overall rating (1–5):**
-- [ ] 1
-- [ ] 2
-- [ ] 3
-- [ ] 4
-- [ ] 5
-
----
-
 ### **Expected behavior** (if it's a bug):
 _Describe what should happen:_
 > Example: "After clicking 'Save', the file is saved to the default folder."

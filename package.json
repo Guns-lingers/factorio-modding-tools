@@ -1,6 +1,7 @@
 {
   "name": "factorio-modding-tools",
   "displayName": "factorio-modding-tools",
+  "publisher": "factorio-modding-tools",
   "description": "",
   "version": "0.1.0",
   "repository": {

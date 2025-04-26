@@ -1,0 +1,27 @@
+// AUTO‑GENERATED — do not edit
+export const display_panel = {
+  "background_color": "${1:background_color}",
+  "circuit_connector": "${2:circuit_connector}",
+  "circuit_wire_max_distance": "${3:circuit_wire_max_distance}",
+  "draw_circuit_wires": "${4:draw_circuit_wires}",
+  "draw_copper_wires": "${5:draw_copper_wires}",
+  "max_text_width": "${6:max_text_width}",
+  "sprites": "${7:sprites}",
+  "text_color": "${8:text_color}",
+  "text_shift": "${9:text_shift}",
+  "close_sound": "${10:close_sound}",
+  "collision_box": "${11:collision_box}",
+  "corpse": "${12:corpse}",
+  "dying_explosion": "${13:dying_explosion}",
+  "factoriopedia_simulation": "${14:factoriopedia_simulation}",
+  "flags": "${15:flags}",
+  "icon": "${16:icon}",
+  "icon_draw_specification": "${17:icon_draw_specification}",
+  "icon_size": "${18:icon_size}",
+  "max_health": "${19:max_health}",
+  "minable": "${20:minable}",
+  "name": "${21:name}",
+  "open_sound": "${22:open_sound}",
+  "selection_box": "${23:selection_box}",
+  "type": "${24:type}"
+};

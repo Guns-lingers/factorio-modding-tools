@@ -1,0 +1,28 @@
+// AUTO‑GENERATED — do not edit
+export const infinity_pipe = {
+  "gui_mode": "${1:gui_mode}",
+  "close_sound": "${2:close_sound}",
+  "collision_box": "${3:collision_box}",
+  "corpse": "${4:corpse}",
+  "damaged_trigger_effect": "${5:damaged_trigger_effect}",
+  "dying_explosion": "${6:dying_explosion}",
+  "fast_replaceable_group": "${7:fast_replaceable_group}",
+  "flags": "${8:flags}",
+  "fluid_box": "${9:fluid_box}",
+  "hidden": "${10:hidden}",
+  "horizontal_window_bounding_box": "${11:horizontal_window_bounding_box}",
+  "icon_draw_specification": "${12:icon_draw_specification}",
+  "icons": "${13:icons}",
+  "impact_category": "${14:impact_category}",
+  "localised_name": "${15:localised_name}",
+  "max_health": "${16:max_health}",
+  "minable": "${17:minable}",
+  "name": "${18:name}",
+  "open_sound": "${19:open_sound}",
+  "pictures": "${20:pictures}",
+  "resistances": "${21:resistances}",
+  "selection_box": "${22:selection_box}",
+  "type": "${23:type}",
+  "vertical_window_bounding_box": "${24:vertical_window_bounding_box}",
+  "working_sound": "${25:working_sound}"
+};

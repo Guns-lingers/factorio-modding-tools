@@ -1,0 +1,27 @@
+// AUTO‑GENERATED — do not edit
+export const pipe = {
+  "fluid_box": "${1:fluid_box}",
+  "horizontal_window_bounding_box": "${2:horizontal_window_bounding_box}",
+  "pictures": "${3:pictures}",
+  "vertical_window_bounding_box": "${4:vertical_window_bounding_box}",
+  "close_sound": "${5:close_sound}",
+  "collision_box": "${6:collision_box}",
+  "corpse": "${7:corpse}",
+  "damaged_trigger_effect": "${8:damaged_trigger_effect}",
+  "dying_explosion": "${9:dying_explosion}",
+  "fast_replaceable_group": "${10:fast_replaceable_group}",
+  "flags": "${11:flags}",
+  "heating_energy": "${12:heating_energy}",
+  "icon": "${13:icon}",
+  "icon_draw_specification": "${14:icon_draw_specification}",
+  "impact_category": "${15:impact_category}",
+  "localised_name": "${16:localised_name}",
+  "max_health": "${17:max_health}",
+  "minable": "${18:minable}",
+  "name": "${19:name}",
+  "open_sound": "${20:open_sound}",
+  "resistances": "${21:resistances}",
+  "selection_box": "${22:selection_box}",
+  "type": "${23:type}",
+  "working_sound": "${24:working_sound}"
+};

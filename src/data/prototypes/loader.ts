@@ -1,0 +1,28 @@
+// AUTO‑GENERATED — do not edit
+export const loader = {
+  "animation_speed_coefficient": "${1:animation_speed_coefficient}",
+  "belt_animation_set": "${2:belt_animation_set}",
+  "circuit_connector": "${3:circuit_connector}",
+  "circuit_wire_max_distance": "${4:circuit_wire_max_distance}",
+  "close_sound": "${5:close_sound}",
+  "collision_box": "${6:collision_box}",
+  "corpse": "${7:corpse}",
+  "damaged_trigger_effect": "${8:damaged_trigger_effect}",
+  "fast_replaceable_group": "${9:fast_replaceable_group}",
+  "filter_count": "${10:filter_count}",
+  "flags": "${11:flags}",
+  "hidden": "${12:hidden}",
+  "icon": "${13:icon}",
+  "localised_name": "${14:localised_name}",
+  "max_health": "${15:max_health}",
+  "minable": "${16:minable}",
+  "name": "${17:name}",
+  "open_sound": "${18:open_sound}",
+  "resistances": "${19:resistances}",
+  "selection_box": "${20:selection_box}",
+  "speed": "${21:speed}",
+  "structure": "${22:structure}",
+  "structure_render_layer": "${23:structure_render_layer}",
+  "type": "${24:type}",
+  "working_sound": "${25:working_sound}"
+};

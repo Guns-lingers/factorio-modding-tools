@@ -1,0 +1,27 @@
+// AUTO‑GENERATED — do not edit
+export const rail_chain_signal = {
+  "circuit_wire_max_distance": "${1:circuit_wire_max_distance}",
+  "close_sound": "${2:close_sound}",
+  "collision_box": "${3:collision_box}",
+  "corpse": "${4:corpse}",
+  "damaged_trigger_effect": "${5:damaged_trigger_effect}",
+  "default_blue_output_signal": "${6:default_blue_output_signal}",
+  "default_green_output_signal": "${7:default_green_output_signal}",
+  "default_orange_output_signal": "${8:default_orange_output_signal}",
+  "default_red_output_signal": "${9:default_red_output_signal}",
+  "dying_explosion": "${10:dying_explosion}",
+  "elevated_picture_set": "${11:elevated_picture_set}",
+  "factoriopedia_simulation": "${12:factoriopedia_simulation}",
+  "fast_replaceable_group": "${13:fast_replaceable_group}",
+  "flags": "${14:flags}",
+  "ground_picture_set": "${15:ground_picture_set}",
+  "icon": "${16:icon}",
+  "localised_name": "${17:localised_name}",
+  "max_health": "${18:max_health}",
+  "minable": "${19:minable}",
+  "name": "${20:name}",
+  "open_sound": "${21:open_sound}",
+  "selection_box": "${22:selection_box}",
+  "surface_conditions": "${23:surface_conditions}",
+  "type": "${24:type}"
+};

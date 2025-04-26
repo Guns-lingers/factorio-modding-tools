@@ -6,7 +6,7 @@ _The Ultimate VS Code Extension for Factorio Modding_
 
 [![VS Code](https://img.shields.io/badge/VSCODE-Extension-blue?logo=visualstudiocode)](https://marketplace.visualstudio.com/)
 [![Status](https://img.shields.io/badge/status-in--development-yellow)](https://github.com/Guns-lingers/factorio-modding-tools)
-[![Version](https://img.shields.io/badge/version-0.0.2-blue)](https://github.com/Guns-lingers/factorio-modding-tools/releases)
+[![Version](https://img.shields.io/badge/version-0.1.0-blue)](https://github.com/Guns-lingers/factorio-modding-tools/releases)
 [![Last Commit](https://img.shields.io/github/last-commit/Guns-lingers/factorio-modding-tools)](https://github.com/Guns-lingers/factorio-modding-tools/commits)
 [![Stars](https://img.shields.io/github/stars/Guns-lingers/factorio-modding-tools?style=social)](https://github.com/Guns-lingers/factorio-modding-tools/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -42,12 +42,9 @@ It allows one-click mod structure generation, speeds up work with Lua prototypes
   ```
 
 ### 🤠 Lua Autocomplete
-- When typing:
-  ```lua
-  type = "
-  ```
-  VS Code suggests a list of prototypes (`item`, `recipe`, `technology`, etc.)
-- After selection, a template with required fields and placeholders is inserted.
+- **Only inside** `data:extend({ … })` blocks  
+- Typing `type = "` instantly shows **all** prototype types (from `prototypes/index.ts`)  
+- After picking a type and moving to a **new line**, suggests **only** the fields for that type **that you haven’t already entered**  
 
 ### 🌐 Localization Autocomplete
 - Autocomplete support for `.cfg` localization files.
@@ -135,6 +132,12 @@ Behavior can be adjusted via source code:
 ### 0.0.2
 - Localization autocomplete
 - Package Mod as ZIP command
+
+### 0.1.0
+- Full prototype field coverage (from Factorio’s data-raw dump)
+- Context-aware Lua completion inside `data:extend`
+- Filtering out fields you’ve already entered
+
 ---
 
 ## 📂 License

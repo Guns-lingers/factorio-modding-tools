@@ -1,0 +1,27 @@
+// AUTO‑GENERATED — do not edit
+export const elevated_curved_rail_b = {
+  "collision_box": "${1:collision_box}",
+  "corpse": "${2:corpse}",
+  "damaged_trigger_effect": "${3:damaged_trigger_effect}",
+  "deconstruction_alternative": "${4:deconstruction_alternative}",
+  "deconstruction_marker_positions": "${5:deconstruction_marker_positions}",
+  "dying_explosion": "${6:dying_explosion}",
+  "extra_planner_penalty": "${7:extra_planner_penalty}",
+  "factoriopedia_alternative": "${8:factoriopedia_alternative}",
+  "fence_pictures": "${9:fence_pictures}",
+  "flags": "${10:flags}",
+  "hidden": "${11:hidden}",
+  "icon": "${12:icon}",
+  "icons": "${13:icons}",
+  "localised_name": "${14:localised_name}",
+  "max_health": "${15:max_health}",
+  "minable": "${16:minable}",
+  "name": "${17:name}",
+  "order": "${18:order}",
+  "pictures": "${19:pictures}",
+  "placeable_by": "${20:placeable_by}",
+  "resistances": "${21:resistances}",
+  "selection_box": "${22:selection_box}",
+  "surface_conditions": "${23:surface_conditions}",
+  "type": "${24:type}"
+};

@@ -1,0 +1,25 @@
+// AUTO‑GENERATED — do not edit
+export const cliff = {
+  "cliff_explosive": "${1:cliff_explosive}",
+  "grid_offset": "${2:grid_offset}",
+  "grid_size": "${3:grid_size}",
+  "orientations": "${4:orientations}",
+  "place_as_crater": "${5:place_as_crater}",
+  "autoplace": "${6:autoplace}",
+  "collision_box": "${7:collision_box}",
+  "collision_mask": "${8:collision_mask}",
+  "deconstruction_alternative": "${9:deconstruction_alternative}",
+  "factoriopedia_simulation": "${10:factoriopedia_simulation}",
+  "flags": "${11:flags}",
+  "icon": "${12:icon}",
+  "impact_category": "${13:impact_category}",
+  "localised_name": "${14:localised_name}",
+  "map_color": "${15:map_color}",
+  "mined_sound": "${16:mined_sound}",
+  "name": "${17:name}",
+  "order": "${18:order}",
+  "selectable_in_game": "${19:selectable_in_game}",
+  "selection_box": "${20:selection_box}",
+  "subgroup": "${21:subgroup}",
+  "type": "${22:type}"
+};

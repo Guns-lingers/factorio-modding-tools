@@ -1,0 +1,25 @@
+// AUTO‑GENERATED — do not edit
+export const tool = {
+  "durability": "${1:durability}",
+  "durability_description_key": "${2:durability_description_key}",
+  "durability_description_value": "${3:durability_description_value}",
+  "infinite": "${4:infinite}",
+  "color_hint": "${5:color_hint}",
+  "default_import_location": "${6:default_import_location}",
+  "drop_sound": "${7:drop_sound}",
+  "factoriopedia_durability_description_key": "${8:factoriopedia_durability_description_key}",
+  "icon": "${9:icon}",
+  "inventory_move_sound": "${10:inventory_move_sound}",
+  "localised_description": "${11:localised_description}",
+  "localised_name": "${12:localised_name}",
+  "name": "${13:name}",
+  "order": "${14:order}",
+  "pick_sound": "${15:pick_sound}",
+  "random_tint_color": "${16:random_tint_color}",
+  "spoil_result": "${17:spoil_result}",
+  "spoil_ticks": "${18:spoil_ticks}",
+  "stack_size": "${19:stack_size}",
+  "subgroup": "${20:subgroup}",
+  "type": "${21:type}",
+  "weight": "${22:weight}"
+};

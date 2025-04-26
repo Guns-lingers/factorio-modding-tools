@@ -1,0 +1,25 @@
+// AUTO‑GENERATED — do not edit
+export const elevated_straight_rail = {
+  "collision_box": "${1:collision_box}",
+  "corpse": "${2:corpse}",
+  "damaged_trigger_effect": "${3:damaged_trigger_effect}",
+  "dying_explosion": "${4:dying_explosion}",
+  "extra_planner_goal_penalty": "${5:extra_planner_goal_penalty}",
+  "factoriopedia_alternative": "${6:factoriopedia_alternative}",
+  "fence_pictures": "${7:fence_pictures}",
+  "flags": "${8:flags}",
+  "hidden": "${9:hidden}",
+  "icon": "${10:icon}",
+  "icons": "${11:icons}",
+  "localised_name": "${12:localised_name}",
+  "max_health": "${13:max_health}",
+  "minable": "${14:minable}",
+  "name": "${15:name}",
+  "order": "${16:order}",
+  "pictures": "${17:pictures}",
+  "placeable_by": "${18:placeable_by}",
+  "resistances": "${19:resistances}",
+  "selection_box": "${20:selection_box}",
+  "surface_conditions": "${21:surface_conditions}",
+  "type": "${22:type}"
+};

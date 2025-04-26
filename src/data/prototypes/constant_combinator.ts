@@ -1,0 +1,28 @@
+// AUTO‑GENERATED — do not edit
+export const constant_combinator = {
+  "activity_led_light": "${1:activity_led_light}",
+  "activity_led_light_offsets": "${2:activity_led_light_offsets}",
+  "activity_led_sprites": "${3:activity_led_sprites}",
+  "circuit_wire_connection_points": "${4:circuit_wire_connection_points}",
+  "circuit_wire_max_distance": "${5:circuit_wire_max_distance}",
+  "draw_circuit_wires": "${6:draw_circuit_wires}",
+  "draw_copper_wires": "${7:draw_copper_wires}",
+  "pulse_duration": "${8:pulse_duration}",
+  "sprites": "${9:sprites}",
+  "close_sound": "${10:close_sound}",
+  "collision_box": "${11:collision_box}",
+  "corpse": "${12:corpse}",
+  "damaged_trigger_effect": "${13:damaged_trigger_effect}",
+  "dying_explosion": "${14:dying_explosion}",
+  "fast_replaceable_group": "${15:fast_replaceable_group}",
+  "flags": "${16:flags}",
+  "icon": "${17:icon}",
+  "icon_draw_specification": "${18:icon_draw_specification}",
+  "localised_name": "${19:localised_name}",
+  "max_health": "${20:max_health}",
+  "minable": "${21:minable}",
+  "name": "${22:name}",
+  "open_sound": "${23:open_sound}",
+  "selection_box": "${24:selection_box}",
+  "type": "${25:type}"
+};

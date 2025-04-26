@@ -1,0 +1,28 @@
+// AUTO‑GENERATED — do not edit
+export const rail_ramp = {
+  "collision_box": "${1:collision_box}",
+  "collision_mask_allow_on_deep_oil_ocean": "${2:collision_mask_allow_on_deep_oil_ocean}",
+  "support_range": "${3:support_range}",
+  "corpse": "${4:corpse}",
+  "damaged_trigger_effect": "${5:damaged_trigger_effect}",
+  "drawing_box_vertical_extension": "${6:drawing_box_vertical_extension}",
+  "dying_explosion": "${7:dying_explosion}",
+  "extra_planner_penalty": "${8:extra_planner_penalty}",
+  "fence_pictures": "${9:fence_pictures}",
+  "flags": "${10:flags}",
+  "forced_fence_segment_count": "${11:forced_fence_segment_count}",
+  "hidden": "${12:hidden}",
+  "icon": "${13:icon}",
+  "icons": "${14:icons}",
+  "localised_name": "${15:localised_name}",
+  "max_health": "${16:max_health}",
+  "minable": "${17:minable}",
+  "name": "${18:name}",
+  "pictures": "${19:pictures}",
+  "resistances": "${20:resistances}",
+  "selection_box": "${21:selection_box}",
+  "surface_conditions": "${22:surface_conditions}",
+  "tile_buildability_rules": "${23:tile_buildability_rules}",
+  "type": "${24:type}",
+  "walking_sound": "${25:walking_sound}"
+};

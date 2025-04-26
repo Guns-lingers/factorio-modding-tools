@@ -1,0 +1,25 @@
+// AUTO‑GENERATED — do not edit
+export const fusion_generator = {
+  "energy_source": "${1:energy_source}",
+  "graphics_set": "${2:graphics_set}",
+  "input_fluid_box": "${3:input_fluid_box}",
+  "max_fluid_usage": "${4:max_fluid_usage}",
+  "output_fluid_box": "${5:output_fluid_box}",
+  "perceived_performance": "${6:perceived_performance}",
+  "collision_box": "${7:collision_box}",
+  "corpse": "${8:corpse}",
+  "damaged_trigger_effect": "${9:damaged_trigger_effect}",
+  "dying_explosion": "${10:dying_explosion}",
+  "factoriopedia_description": "${11:factoriopedia_description}",
+  "fast_replaceable_group": "${12:fast_replaceable_group}",
+  "flags": "${13:flags}",
+  "icon": "${14:icon}",
+  "impact_category": "${15:impact_category}",
+  "max_health": "${16:max_health}",
+  "minable": "${17:minable}",
+  "name": "${18:name}",
+  "resistances": "${19:resistances}",
+  "selection_box": "${20:selection_box}",
+  "type": "${21:type}",
+  "working_sound": "${22:working_sound}"
+};

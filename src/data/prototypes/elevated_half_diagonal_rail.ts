@@ -1,0 +1,28 @@
+// AUTO‑GENERATED — do not edit
+export const elevated_half_diagonal_rail = {
+  "collision_box": "${1:collision_box}",
+  "corpse": "${2:corpse}",
+  "damaged_trigger_effect": "${3:damaged_trigger_effect}",
+  "deconstruction_alternative": "${4:deconstruction_alternative}",
+  "dying_explosion": "${5:dying_explosion}",
+  "extra_planner_goal_penalty": "${6:extra_planner_goal_penalty}",
+  "extra_planner_penalty": "${7:extra_planner_penalty}",
+  "factoriopedia_alternative": "${8:factoriopedia_alternative}",
+  "fence_pictures": "${9:fence_pictures}",
+  "flags": "${10:flags}",
+  "hidden": "${11:hidden}",
+  "icon": "${12:icon}",
+  "icons": "${13:icons}",
+  "localised_name": "${14:localised_name}",
+  "max_health": "${15:max_health}",
+  "minable": "${16:minable}",
+  "name": "${17:name}",
+  "order": "${18:order}",
+  "pictures": "${19:pictures}",
+  "placeable_by": "${20:placeable_by}",
+  "resistances": "${21:resistances}",
+  "selection_box": "${22:selection_box}",
+  "surface_conditions": "${23:surface_conditions}",
+  "tile_height": "${24:tile_height}",
+  "type": "${25:type}"
+};

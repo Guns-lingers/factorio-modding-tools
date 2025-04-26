@@ -1,27 +1,27 @@
 ---
-name: 💡 Запрос новой функции
-about: Предложить новую функцию или улучшение
+name: 💡 Feature Request
+about: Suggest a new feature or improvement
 title: "[FEATURE]: "
 labels: ["enhancement"]
 assignees: []
 ---
 
-## ✨ Описание предложения
+## ✨ Feature Description
 
-<!-- Опишите предлагаемую функцию или улучшение -->
+<!-- Describe the proposed feature or improvement -->
 
-## 🧩 Проблема или потребность
+## 🧩 Problem or Need
 
-<!-- Опишите проблему, которую решает ваше предложение -->
+<!-- Describe the problem your proposal addresses -->
 
-## 🛠️ Предлагаемое решение
+## 🛠️ Proposed Solution
 
-<!-- Опишите, как вы видите реализацию функции -->
+<!-- Describe how you envision the implementation of the feature -->
 
-## 🔄 Альтернативные варианты
+## 🔄 Alternative Options
 
-<!-- Опишите другие возможные решения или подходы -->
+<!-- Describe other possible solutions or approaches -->
 
-## 📎 Дополнительные материалы
+## 📎 Additional Materials
 
-<!-- Прикрепите скриншоты, схемы или ссылки, если необходимо -->
+<!-- Attach screenshots, diagrams, or links if necessary -->

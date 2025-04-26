@@ -1,11 +1,11 @@
 blank_issues_enabled: true
 contact_links:
-  - name: 📚 Документация
-    url: https://github.com/your-repo/docs
-    about: Ознакомьтесь с документацией проекта.
-  - name: 🐞 Сообщение об ошибке
-    about: Сообщить об ошибке в расширении
-  - name: 💡 Запрос новой функции
-    about: Предложить новую функцию или улучшение
-  - name: 📣 Общая обратная связь
-    about: Поделиться отзывом или предложением
+  - name: 📚 Documentation
+    url: https://github.com/Guns-lingers/factorio-modding-tools#readme
+    about: Review the project documentation.
+  - name: 🐞 Bug Report
+    about: Report a bug in the extension.
+  - name: 💡 Feature Request
+    about: Suggest a new feature or improvement.
+  - name: 📣 General Feedback
+    about: Share your feedback or suggestions.

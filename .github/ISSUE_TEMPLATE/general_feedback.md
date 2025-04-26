@@ -1,19 +1,19 @@
 ---
-name: 📣 Общая обратная связь
-about: Поделиться отзывом или предложением
+name: 📣 General Feedback
+about: Share your feedback or suggestions
 title: "[FEEDBACK]: "
 labels: ["feedback"]
 assignees: []
 ---
 
-## 🙌 Что работает хорошо?
+## 🙌 What Works Well?
 
-<!-- Опишите, что вам нравится в расширении -->
+<!-- Describe what you like about the extension -->
 
-## 🧠 Что можно улучшить?
+## 🧠 What Could Be Improved?
 
-<!-- Опишите, что можно улучшить или изменить -->
+<!-- Describe what could be improved or changed -->
 
-## 💬 Дополнительные комментарии
+## 💬 Additional Comments
 
-<!-- Поделитесь другими мыслями или предложениями -->
+<!-- Share any other thoughts or suggestions -->

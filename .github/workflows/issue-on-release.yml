@@ -1,3 +1,4 @@
+# .github/workflows/issue-on-release.yml
 name: "📝 Create feedback issue on release"
 
 on:
@@ -5,22 +6,34 @@ on:
     types: [published]
 
 permissions:
-  contents: read    # для чтения шаблонов
-  issues: write     # для создания issue
+  contents: read    # нужно читать файл
+  issues: write     # нужно создавать issue
 
 jobs:
   create-feedback-issue:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v3
+
+      - name: Render YAML-template to Markdown
+        id: render
+        uses: chuhlomin/render-template@v1
+        with:
+          template: .github/ISSUE_TEMPLATE/release-feedback.yml
+          vars: |
+            release:
+              tag_name: ${{ github.event.release.tag_name }}
+
+      - name: Write rendered template to file
+        run: echo "${{ steps.render.outputs.result }}" > release-feedback.md
 
       - name: Create release feedback issue
         uses: peter-evans/create-issue-from-file@v4
         with:
-          # путь к нашему шаблону (маршаллится как Markdown)
-          issue-file: .github/ISSUE_TEMPLATE/release-feedback.yml
-          title: "Feedback for ${{ github.event.release.tag_name }}"
-          labels: feedback, release
+          # здесь правильный параметр
+          content-filepath: release-feedback.md
+          title: "[Feedback][${{ github.event.release.tag_name }}]"
+          labels: feedback,release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -3,38 +3,37 @@ name: "📝 Create feedback issue on release"
 
 on:
   release:
-    types: [published]    # срабатывает на Publish release :contentReference[oaicite:2]{index=2}
+    types: [published]      # срабатывает при Publish release :contentReference[oaicite:2]{index=2}
 
 permissions:
-  contents: read         # для чтения шаблона
-  issues: write          # для создания issue 
+  contents: read           # чтобы читать шаблон-файл
+  issues: write            # чтобы создавать Issue :contentReference[oaicite:3]{index=3}
 
 jobs:
   create-feedback-issue:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Render feedback template to file
-        id: render
+      # Рендерим Markdown-шаблон (подставляем .release.tag_name)
+      - id: render
         uses: chuhlomin/render-template@v1
         with:
-          template: .github/ISSUE_TEMPLATE/release-feedback.yml
+          template: .github/ISSUE_TEMPLATE/release-feedback.md
           vars: |
             release:
               tag_name: ${{ github.event.release.tag_name }}
-          result_path: release-feedback.md   # ← автоматически создаст файл :contentReference[oaicite:3]{index=3}
+          result_path: rendered-feedback.md   # автоматически сохраняем в файл 
 
       - name: Verify rendered file
         run: |
-          echo "=== release-feedback.md ==="
-          cat release-feedback.md
+          echo "=== rendered-feedback.md ==="
+          cat rendered-feedback.md
 
       - name: Create release feedback issue
         uses: peter-evans/create-issue-from-file@v4
         with:
-          content-filepath: release-feedback.md
+          content-filepath: rendered-feedback.md  # передаём уже готовый Markdown
           title: "[Feedback][${{ github.event.release.tag_name }}]"
           labels: feedback,release
         env:

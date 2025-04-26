@@ -1,12 +1,12 @@
 name: "🔖 Detailed Release Feedback"
-description: "Structured form to collect comprehensive feedback and bug reports for release {{ release.tag_name }}."
-title: "[Feedback][{{ release.tag_name }}] "
+description: "Structured form to collect comprehensive feedback and bug reports for release {{ .release.tag_name }}."
+title: "[Feedback][{{ .release.tag_name }}] "
 labels: ["feedback", "release"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for testing **{{ release.tag_name }}**!  
+        Thanks for testing **{{ .release.tag_name }}**!  
         Please provide as much detail as possible to help us improve.
   - type: input
     id: version

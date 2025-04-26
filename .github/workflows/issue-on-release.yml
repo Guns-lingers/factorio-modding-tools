@@ -35,5 +35,7 @@ jobs:
         uses: peter-evans/create-issue-from-file@v4
         with:
           content-filepath: rendered-feedback.md  # готовый Markdown
+          title: "Feedback for ${{ format('{0}', github.event.release.tag_name) }}"  # Простой заголовок
+          labels: feedback  # Только метка feedback
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

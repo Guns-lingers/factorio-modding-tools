@@ -1,10 +1,3 @@
----
-title: "[Feedback][release {{ .release.tag_name }}]: "
-labels:
-  - feedback
-  - release
----
-
 ## Thanks for testing **{{ .release.tag_name }}**
 
 **Environment (required):**  
@@ -22,7 +15,7 @@ _e.g. VS Code 1.75, Windows 10, Factorio 2.0_
 2. …  
 
 **Additional feedback (required):**  
-…  
+- …  
 
 **Logs / Screenshots (optional):**  
-…
+- …

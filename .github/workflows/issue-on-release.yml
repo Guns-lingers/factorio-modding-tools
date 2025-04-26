@@ -3,11 +3,11 @@ name: "📝 Create feedback issue on release"
 
 on:
   release:
-    types: [published]    # срабатывает на Publish release :contentReference[oaicite:5]{index=5}
+    types: [published]    # срабатывает на Publish release :contentReference[oaicite:2]{index=2}
 
 permissions:
-  contents: read         # чтобы читать шаблон
-  issues: write          # чтобы создавать Issue :contentReference[oaicite:6]{index=6}
+  contents: read         # для чтения шаблона
+  issues: write          # для создания issue 
 
 jobs:
   create-feedback-issue:
@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Render feedback template
+      - name: Render feedback template to file
         id: render
         uses: chuhlomin/render-template@v1
         with:
@@ -24,11 +24,17 @@ jobs:
           vars: |
             release:
               tag_name: ${{ github.event.release.tag_name }}
+          result_path: release-feedback.md   # ← автоматически создаст файл :contentReference[oaicite:3]{index=3}
+
+      - name: Verify rendered file
+        run: |
+          echo "=== release-feedback.md ==="
+          cat release-feedback.md
 
       - name: Create release feedback issue
         uses: peter-evans/create-issue-from-file@v4
         with:
-          content-filepath: release-feedback.md   # используем content-filepath, не issue-file :contentReference[oaicite:7]{index=7}
+          content-filepath: release-feedback.md
           title: "[Feedback][${{ github.event.release.tag_name }}]"
           labels: feedback,release
         env:

@@ -1,14 +1,18 @@
-# .github/workflows/release-notify.yml
+# .github/workflows/release-notify.yml  
+name: “Notify Discord on Release”
+
 on:
   release:
     types: [published]
 
 jobs:
-  notify:
+  discord_notify:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: SethCohen/github-releases-to-discord@v1.16.2   # :contentReference[oaicite:9]{index=9}
+      - name: Send release to Discord
+        uses: SethCohen/github-releases-to-discord@v1.16.2   # v1.16.2 Latest :contentReference[oaicite:4]{index=4}
         with:
-          WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          USERNAME: 'ReleaseBot'
-          AVATAR_URL: 'https://i.imgur.com/AfFp7pu.png'
+          webhook_url: ${{ https://discord.com/api/webhooks/1370762331612778637/pFqQvAtK4p4-GTBnnpcsD5vDqm39Qf7dx-3ahectDGb3384a-MFmG6VIoWXuwoM0N9r6/github }}            # ← здесь обязательно webhook_url :contentReference[oaicite:5]{index=5}
+          username: 'ReleaseBot'                             # необязательно, но можно
+          avatar_url: 'https://i.imgur.com/AfFp7pu.png'      # необязательно

@@ -1,18 +1,19 @@
 # .github/workflows/release-notify.yml  
-name: “Notify Discord on Release”
+name: Notify Discord on Release              # название workflow (любой текст) :contentReference[oaicite:1]{index=1}
 
 on:
   release:
-    types: [published]
+    types: [published]                       # реагируем только на новые (published) релизы 
 
 jobs:
   discord_notify:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest                   # среда выполнения
 
     steps:
       - name: Send release to Discord
-        uses: SethCohen/github-releases-to-discord@v1.16.2   # v1.16.2 Latest :contentReference[oaicite:4]{index=4}
+        uses: SethCohen/github-releases-to-discord@v1.16.2  # Action‑версия :contentReference[oaicite:3]{index=3}
         with:
-          webhook_url: ${{ https://discord.com/api/webhooks/1370762331612778637/pFqQvAtK4p4-GTBnnpcsD5vDqm39Qf7dx-3ahectDGb3384a-MFmG6VIoWXuwoM0N9r6/github }}            # ← здесь обязательно webhook_url :contentReference[oaicite:5]{index=5}
-          username: 'ReleaseBot'                             # необязательно, но можно
-          avatar_url: 'https://i.imgur.com/AfFp7pu.png'      # необязательно
+          # Здесь — именно литерал expression, указывающий на secret!
+          webhook_url: ${{ secrets.WEBHOOK_URL }}           # ← правильная ссылка на secret :contentReference[oaicite:4]{index=4}
+          username:   'ReleaseBot'                         # опционально: имя бота в сообщении :contentReference[oaicite:5]{index=5}
+          avatar_url: 'https://i.imgur.com/AfFp7pu.png'     # опционально: аватар бота :contentReference[oaicite:6]{index=6}

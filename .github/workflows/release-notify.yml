@@ -1,0 +1,13 @@
+# .github/workflows/release-notify.yml
+on:
+  release:
+    types: [published]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: SethCohen/github-releases-to-discord@v1   # :contentReference[oaicite:9]{index=9}
+        with:
+          WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          USERNAME: 'ReleaseBot'

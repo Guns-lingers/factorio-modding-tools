@@ -7,7 +7,8 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - uses: SethCohen/github-releases-to-discord@v1   # :contentReference[oaicite:9]{index=9}
+      - uses: SethCohen/github-releases-to-discord@v1.16.2   # :contentReference[oaicite:9]{index=9}
         with:
           WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           USERNAME: 'ReleaseBot'
+          AVATAR_URL: 'https://i.imgur.com/AfFp7pu.png'

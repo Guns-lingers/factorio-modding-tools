@@ -16,3 +16,5 @@ jobs:
           webhook_url: ${{ secrets.WEBHOOK_URL }}  # <–– без "/github"
           username:   'ReleaseBot'
           avatar_url: 'https://github.com/Guns-lingers/factorio-modding-tools/blob/main/images/icon.png'
+          color:      '3447003'               # тёмно‑синий                                       
+          content:    '||@here|| Новая версия!' # упоминание перед embed   

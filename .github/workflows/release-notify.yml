@@ -15,4 +15,4 @@ jobs:
         with:
           webhook_url: ${{ secrets.WEBHOOK_URL }}  # <–– без "/github"
           username:   'ReleaseBot'
-          avatar_url: 'https://i.imgur.com/AfFp7pu.png'
+          avatar_url: 'https://github.com/Guns-lingers/factorio-modding-tools/blob/main/images/icon.png'

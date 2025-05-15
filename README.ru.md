@@ -11,7 +11,7 @@ _Лучшее расширение для моддинга Factorio в VS Code_
 [![Stars](https://img.shields.io/github/stars/Guns-lingers/factorio-modding-tools?style=social)](https://github.com/Guns-lingers/factorio-modding-tools/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Language: Lua](https://img.shields.io/badge/language-Lua-blue.svg)](https://www.lua.org/)\
-[![Join our Discord server](https://invidget.switchblade.xyz/W9DMUwKhv7?language=ru)](https://discord.gg/W9DMUwKhv7)
+<!-- [![Join our Discord server](https://invidget.switchblade.xyz/W9DMUwKhv7?language=ru)](https://discord.gg/W9DMUwKhv7) -->
 
 > ⚠️ **Внимание**: Это расширение находится в активной разработке. Некоторые функции могут быть недоступны или работать нестабильно. Мы активно работаем над улучшением функциональности и будем рады вашим отзывам и предложениям.
 

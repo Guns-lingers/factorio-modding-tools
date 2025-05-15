@@ -1,0 +1,83 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Factorio Mod info.json",
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["name", "version", "title", "author"],
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "Внутреннее имя мода (буквенно-цифровые символы, дефисы, подчеркивания, не более 100 символов)",
+        "minLength": 1,
+        "pattern": "^[A-Za-z0-9_-]+$"
+      },
+      "version": {
+        "type": "string",
+        "description": "Версия мода в формате Major.Middle.Minor, каждое число от 0 до 65535",
+        "pattern": "^\\d+\\.\\d+\\.\\d+$"
+      },
+      "title": {
+        "type": "string",
+        "description": "Отображаемое имя (не более 100 символов)",
+        "minLength": 1,
+        "maxLength": 100
+      },
+      "author": {
+        "type": "string",
+        "description": "Автор мода (произвольный текст)"
+      },
+      "contact": {
+        "type": "string",
+        "description": "Контактная информация, например email или Discord"
+      },
+      "homepage": {
+        "type": "string",
+        "description": "URL домашней страницы мода или репозитория"
+      },
+      "description": {
+        "type": "string",
+        "description": "Краткое описание в игре"
+      },
+      "factorio_version": {
+        "type": "string",
+        "description": "Поддерживаемая версия Factorio, major.minor (например \"1.1\")",
+        "pattern": "^\\d+\\.\\d+$",
+        "default": "2.0"
+      },
+      "dependencies": {
+        "type": "array",
+        "description": "Другие моды, от которых зависит данный мод или с которыми он конфликтует",
+        "items": {
+          "type": "string",
+          "pattern": "^[!\\?~\\(\\?\\)]?\\s*[A-Za-z0-9_-]+(\\s*[<>=]+\\s*\\d+\\.\\d+\\.\\d+)?$"
+        },
+        "default": ["base"]
+      },
+      "quality_required": {
+        "type": "boolean",
+        "description": "Требуется функция DLC Space Age"
+      },
+      "space_travel_required": {
+        "type": "boolean",
+        "description": "Требуется функция DLC Space Travel"
+      },
+      "spoiling_required": {
+        "type": "boolean",
+        "description": "Требуется функция DLC Spoiling"
+      },
+      "freezing_required": {
+        "type": "boolean",
+        "description": "Требуется функция DLC Freezing"
+      },
+      "segmented_units_required": {
+        "type": "boolean",
+        "description": "Требуется функция DLC Segmented Units"
+      },
+      "expansion_shaders_required": {
+        "type": "boolean",
+        "description": "Требуется функция DLC Expansion Shaders"
+      }
+    },
+    "default": {}
+  }
+  

@@ -12,6 +12,19 @@ const prototypeFieldsTyped: Record<string, Record<string, string>> = prototypeFi
 const allTypes: string[] = Object.keys(prototypeFieldsTyped);
 
 export function activate(context: vscode.ExtensionContext) {
+	console.log('[FMT] activate start, applying locale schema…');
+	// Обновляем схему при старте
+	applyLocaleSchema(context);
+
+	// Перерегистрируем схему при изменении настройки
+	vscode.workspace.onDidChangeConfiguration(e => {
+	  if (e.affectsConfiguration('factorioModdingTools.suggestionLanguage')) {
+		applyLocaleSchema(context);
+	  }
+	});
+
+
+
 	const disposable = vscode.commands.registerCommand(
 		'factorioModHelper.createModStructure',
 		async () => {
@@ -178,3 +191,30 @@ class FactorioCompletionProvider implements vscode.CompletionItemProvider {
 	}
   }
   
+async function applyLocaleSchema(ctx: vscode.ExtensionContext) {
+  const config = vscode.workspace.getConfiguration('factorioModdingTools');
+  const lang = config.get<string>('suggestionLanguage', 'en');
+  const schemaFile = lang === 'ru'
+    ? ctx.asAbsolutePath('schemas/info.ru.schema.json')
+    : ctx.asAbsolutePath('schemas/info.schema.json');
+
+  console.log('[FMT] applyLocaleSchema → lang =', lang, ', schemaFile =', schemaFile);
+
+  // Выбор места записи: WORKSPACE если есть открытая папка, иначе GLOBAL
+  const target = vscode.workspace.workspaceFolders?.length
+    ? vscode.ConfigurationTarget.Workspace
+    : vscode.ConfigurationTarget.Global;
+
+  const jsonConfig = vscode.workspace.getConfiguration('json');
+  const schemas = jsonConfig.get<any[]>('schemas', []);
+  const newEntry = { fileMatch: ['info.json'], url: vscode.Uri.file(schemaFile).toString() };
+  const filtered = schemas.filter(s => !s.fileMatch?.includes('info.json'));
+
+  try {
+    await jsonConfig.update('schemas', [...filtered, newEntry], target);
+    console.log('[FMT] json.schemas updated in', target === vscode.ConfigurationTarget.Workspace ? 'WORKSPACE' : 'GLOBAL');
+  } catch (err) {
+    console.warn('[FMT] Failed to update json.schemas:', err);
+    // не перебрасываем — просто логируем ошибку
+  }
+}

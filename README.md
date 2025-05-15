@@ -10,7 +10,9 @@ _The Ultimate VS Code Extension for Factorio Modding_
 [![Last Commit](https://img.shields.io/github/last-commit/Guns-lingers/factorio-modding-tools)](https://github.com/Guns-lingers/factorio-modding-tools/commits)
 [![Stars](https://img.shields.io/github/stars/Guns-lingers/factorio-modding-tools?style=social)](https://github.com/Guns-lingers/factorio-modding-tools/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Language: Lua](https://img.shields.io/badge/language-Lua-blue.svg)](https://www.lua.org/)
+[![Language: Lua](https://img.shields.io/badge/language-Lua-blue.svg)](https://www.lua.org/)\
+[![Join our Discord server](https://invidget.switchblade.xyz/W9DMUwKhv7)](https://discord.gg/W9DMUwKhv7)
+
 
 > ⚠️ **Attention**: This extension is under active development. Some features may be unavailable or unstable. We’re working hard to improve functionality and welcome your feedback and suggestions.
 
@@ -137,6 +139,9 @@ Behavior can be adjusted via source code:
 - Full prototype field coverage (from Factorio’s data-raw dump)
 - Context-aware Lua completion inside `data:extend`
 - Filtering out fields you’ve already entered
+
+### 0.1.1
+- Added the ability to switch the language for autocomplete suggestions
 
 ---
 

@@ -1,19 +1,32 @@
-# .github/workflows/release-notify.yml
 name: Notify Discord on Release
 
 on:
   release:
-    types: [published]    # только новые релизы
+    types: [published]
 
 jobs:
   discord_notify:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Send release to Discord
+      - name: Send STABLE Release to Discord
+        if: ${{ github.event.release.prerelease == false }}
         uses: SethCohen/github-releases-to-discord@v1.16.2
         with:
-          webhook_url: ${{ secrets.WEBHOOK_URL }}  # <–– без "/github"
+          webhook_url: ${{ secrets.WEBHOOK_URL }}
           username:   'ReleaseBot'
-          color:      '3447003'               # тёмно‑синий                                       
-          content:    '@here Новая версия!' # упоминание перед embed   
+          color:      '3447003'
+          content: |
+            **🚀 Новая STABLE-версия: ${{ github.event.release.name }}**  
+            Проверьте полный список изменений ниже.
+
+      - name: Send PRE-Release to Discord
+        if: ${{ github.event.release.prerelease == true }}
+        uses: SethCohen/github-releases-to-discord@v1.16.2
+        with:
+          webhook_url: ${{ secrets.WEBHOOK_URL }}
+          username:   'ReleaseBot'
+          color:      '16776960'
+          content: |
+            **🔔 Доступен PRE-Release: ${{ github.event.release.name }}**  
+            Обратите внимание на статус беты перед установкой.

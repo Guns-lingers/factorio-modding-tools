@@ -10,7 +10,8 @@ _Лучшее расширение для моддинга Factorio в VS Code_
 [![Last Commit](https://img.shields.io/github/last-commit/Guns-lingers/factorio-modding-tools)](https://github.com/Guns-lingers/factorio-modding-tools/commits)
 [![Stars](https://img.shields.io/github/stars/Guns-lingers/factorio-modding-tools?style=social)](https://github.com/Guns-lingers/factorio-modding-tools/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Language: Lua](https://img.shields.io/badge/language-Lua-blue.svg)](https://www.lua.org/)
+[![Language: Lua](https://img.shields.io/badge/language-Lua-blue.svg)](https://www.lua.org/)\
+[![Join our Discord server](https://invidget.switchblade.xyz/W9DMUwKhv7?language=ru)](https://discord.gg/W9DMUwKhv7)
 
 > ⚠️ **Внимание**: Это расширение находится в активной разработке. Некоторые функции могут быть недоступны или работать нестабильно. Мы активно работаем над улучшением функциональности и будем рады вашим отзывам и предложениям.
 
@@ -140,6 +141,9 @@ code --install-extension factorio-modding-tools-0.0.1.vsix
 - Добавлены все возможные прототипы (использовалось официальное API Factorion и файл `data-raw-dump.json`)
 - Контекстное Lua автодополнение внутри `data:extend`
 - Фильтрация уже введённых полей
+
+### 0.1.1
+- Добавлена возможность смены языка для подсказок автодополнения
 
 ---
 

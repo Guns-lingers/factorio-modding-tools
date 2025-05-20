@@ -38,6 +38,12 @@
         "title": "Factorio Mod: Package Mod as ZIP"
       }
     ],
+    "snippets": [
+      {
+        "language": "lua",
+        "path": "./snippets/base_snippets.json"
+      }
+    ],
     "configuration": [
       {
         "title": "Factorio Modding Tools",
@@ -45,7 +51,6 @@
           "factorioModdingTools.suggestionLanguage": {
             "type": "string",
             "enum": [
-              "off",
               "ru",
               "en (beta)"
             ],

@@ -32,6 +32,11 @@
     "tips-and-tricks-item-description": "Tips and tricks item description",
     "tips-and-tricks-item-name": "Tips and tricks item name",
     "virtual-signal-description": "Virtual signal description",
-    "virtual-signal-name": "Virtual signal name"
+    "virtual-signal-name": "Virtual signal name",
+
+    "snippet.itemHeader.description":       "Creates a standard item prototype block",
+    "snippet.recipeHeader.description":     "Creates a standard recipe prototype block",
+    "snippet.containerHeader.description":  "Creates a standard container prototype block",
+    "snippet.technologyHeader.description": "Creates a standard technology prototype block"
   }
   

@@ -1,0 +1,129 @@
+{
+  "Item Header": {
+    "prefix": "itemheader",
+    "body": [
+      "data:extend({",
+      "  {",
+      "    type = \"item\",",
+      "    name = \"${1:name}\",",
+      "    icon = \"${2:__${3:modName}__/graphics/icons/item.png}\",",
+      "    icon_size = ${4:64},",
+      "    subgroup = \"${5:raw-resource}\",",
+      "    order = \"${6:a[b]-c[d]}\",",
+      "    stack_size = ${7:100},",
+      "  }",
+      "})"
+    ],
+    "description": "Создаёт стандартный заголовок для предмета"
+  },
+
+  "Recipe Header": {
+    "prefix": "recipeheader",
+    "body": [
+        "data:extend({",
+        "  {",
+        "    type = \"recipe\",",
+        "    name = \"${1:name}\",",
+        "    category = \"${2:crafting}\",",
+        "    energy_required = ${3:1},",
+        "    ingredients = {",
+        "      {",
+        "          type = \"item\",",
+        "          name = \"${4:iron-plate}\",",
+        "          amount = ${5:1}",
+        "      },",
+        "    },",
+        "    results = {",
+        "      {",
+        "          type = \"item\",",
+        "          name = \"${6:product}\",",
+        "          amount = ${7:1} },",
+        "      },",
+        "    }",
+        "})"
+    ],
+    "description": "Создаёт стандартный заголовок для рецепта"
+    },
+
+
+  "Container Header": {
+    "prefix": "containerheader",
+    "body": [
+      "data:extend({",
+      "  {",
+      "    type = \"container\",",
+      "    name = \"${1:name}\",",
+      "    icon = \"${2:__${3:modName}__/graphics/icons/container.png}\",",
+      "    icon_size = ${4:64},",
+      "    flags = {",
+      "        \"${5:placeable-neutral}\",",
+      "        \"${6:player-creation}\"",
+      "    },",
+      "    minable = {",
+      "        mining_time = ${7:0.2},",
+      "        result = \"${8:name}\"",
+      "    },",
+      "    max_health = ${9:100},",
+
+      "    collision_box = {",
+      "        {${10:-0.35}, ${11:-0.35}},",
+      "        {${12:0.35}, ${13:0.35}}",
+      "    },",
+
+      "    selection_box = {",
+      "        {${14:-0.5}, ${15:-0.5}},",
+      "        {${16:0.5}, ${17:0.5}}",
+      "    },",
+
+      "    inventory_size = ${18:16},",
+
+      "    picture = {",
+      "        filename = \"${19:__${20:modName}__/graphics/entity/entity/entity.png}\",",
+      "        priority = \"${21:extra-high}\",",
+      "        width = ${22:64},",
+      "        height = ${23:64},",
+      "        shift = {${24:0}, ${25:0}},",
+      "    }",
+      "})"
+    ],
+    "description": "Создаёт стандартный заголовок для контейнера"
+  },
+
+  "Technology Header": {
+    "prefix": "techheader",
+    "body": [
+      "data:extend({",
+      "  {",
+      "    type = \"technology\",",
+      "    name = \"${1:name}\",",
+      "    icon = \"${2:__${3:modName}__/graphics/icons/technology.png}\",",
+      "    icon_size = ${4:64},",
+
+      "    prerequisites = {",
+      "         \"${5:automation}\",",
+      "         \"${6:steel-processing}\"",
+      "    },",
+
+      "    unit = {",
+      "        count = ${7:100},",
+      "        ingredients = {",
+      "            {",
+      "                \"${8:automation-science-pack}\", ${9:1}",
+      "            }, time = ${10:30}",
+      "        }",
+      "    },",
+      
+      "    effects = {",
+      "        {",
+      "            type = \"${11:unlock-recipe}\",",
+      "            recipe = \"${12:recipe-name}\"",
+      "        }",
+      "    },",
+      "    order = \"${13:c-a}\",",
+      "  }",
+      "})"
+    ],
+    "description": "Создаёт стандартный заголовок для технологии"
+  }
+}
+

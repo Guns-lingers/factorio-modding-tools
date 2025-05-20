@@ -32,5 +32,10 @@
     "tips-and-tricks-item-description": "Описание совета и подсказки",
     "tips-and-tricks-item-name": "Название совета и подсказки",
     "virtual-signal-description": "Описание виртуального сигнала",
-    "virtual-signal-name": "Название виртуального сигнала"
+    "virtual-signal-name": "Название виртуального сигнала",
+
+    "snippet.itemHeader.description":       "Создаёт стандартный заголовок для предмета",
+    "snippet.recipeHeader.description":     "Создаёт стандартный заголовок для рецепта",
+    "snippet.containerHeader.description":  "Создаёт стандартный заголовок для контейнера",
+    "snippet.technologyHeader.description": "Создаёт стандартный заголовок для технологии"
   }

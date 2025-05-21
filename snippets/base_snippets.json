@@ -14,7 +14,7 @@
       "  }",
       "})"
     ],
-    "description": "Создаёт стандартный заголовок для предмета"
+    "description": "Creates a standard item prototype block"
   },
 
   "Recipe Header": {
@@ -42,7 +42,7 @@
         "    }",
         "})"
     ],
-    "description": "Создаёт стандартный заголовок для рецепта"
+    "description": "Creates a standard recipe prototype block"
     },
 
 
@@ -86,7 +86,7 @@
       "    }",
       "})"
     ],
-    "description": "Создаёт стандартный заголовок для контейнера"
+    "description": "Creates a standard container prototype block"
   },
 
   "Technology Header": {
@@ -123,7 +123,7 @@
       "  }",
       "})"
     ],
-    "description": "Создаёт стандартный заголовок для технологии"
+    "description": "Creates a standard technology prototype block"
   }
 }
 

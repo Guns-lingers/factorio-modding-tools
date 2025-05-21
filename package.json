@@ -52,16 +52,10 @@
             "type": "string",
             "enum": [
               "ru",
-              "en (beta)"
+              "en"
             ],
             "default": "ru",
             "description": "The language of suggestions for auto-completion"
-          },
-          "factorioModdingTools.maxCompletionItems": {
-            "type": "number",
-            "default": 50,
-            "minimum": 0,
-            "description": "Максимальное число элементов в списке автодополнения (0 — отключить)"
           },
           "factorioModdingTools.showHoverDocumentation": {
             "type": "boolean",

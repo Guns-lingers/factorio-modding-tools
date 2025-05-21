@@ -63,6 +63,14 @@ It allows one-click mod structure generation, speeds up work with Lua prototypes
   - `name`, `version`, `title`, `author`, `dependencies`, `description`
 - Real-time validation for field types, required fields, and allowed values.
 
+### 📋 Code Snippets
+- **Item Header** (`itemheader`) — Inserts a complete `data:extend({ … })` block for a new item
+- **Recipe Header** (`recipeheader`) — Inserts a recipe block
+- **Container Header** (`containerheader`) — Inserts a container block
+- **Technology Header** (`techheader`) — Inserts a technology block
+
+> To customize or add snippets, open `snippets/factorio.json` in the extension folder.
+
 ---
 
 ## 📦 Installation & Usage
@@ -100,12 +108,32 @@ Or via VS Code UI:
    - Open `locale.cfg` or other localization files
    - Start typing section headers like `[item-name]`, and get key suggestions with syntax tips
 
-5. **Package your mod:**:
+5. **Code Snippets**
+   - In a Lua file, type a snippet prefix and press `Tab`:
+   - `itemheader` → Item Header
+   - `recipeheader` → Recipe Header
+   - `containerheader` → Container Header
+   - `techheader` → Technology Header
+
+6. **Package your mod:**:
    - Use `Package Mod as ZIP` from Command Palette to generate a distributable archive
 
 ---
 
 ## ⚙ Extension Settings
+
+- Press `Ctrl + ,` to open the VS Code settings.
+- At the top of the Settings pane, switch to the **Extensions** tab.
+- In the list of extensions, find **Factorio Modding Tools** and expand its settings section.
+- The following options are available:
+   - **`Suggestion Language`**
+      Choose the autocomplete suggestion language:
+      - `ru` — Russian descriptions
+      - `en` — English descriptions
+   - **`Show Hover Documentation`**
+      Show documentation in hover tooltips (`true`/`false`, default: `true`).
+   - **`Custom Keybindings`**
+      Keybinding for the Create Mod Structure command. Leave empty to disable
 
 > Currently, there are no configurable settings via `settings.json`.  
 Behavior can be adjusted via source code:
@@ -142,6 +170,8 @@ Behavior can be adjusted via source code:
 
 ### 0.1.1
 - Added the ability to switch the language for autocomplete suggestions
+- Code snippets added
+- Extension settings added
 
 ---
 

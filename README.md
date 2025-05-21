@@ -69,7 +69,7 @@ It allows one-click mod structure generation, speeds up work with Lua prototypes
 - **Container Header** (`containerheader`) — Inserts a container block
 - **Technology Header** (`techheader`) — Inserts a technology block
 
-> To customize or add snippets, open `snippets/factorio.json` in the extension folder.
+> To customize or add snippets, open `snippets/base_snippets.json` in the extension folder.
 
 ---
 

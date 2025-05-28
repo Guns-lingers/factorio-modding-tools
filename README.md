@@ -6,7 +6,7 @@ _The Ultimate VS Code Extension for Factorio Modding_
 
 [![VS Code](https://img.shields.io/badge/VSCODE-Extension-blue?logo=visualstudiocode)](https://marketplace.visualstudio.com/)
 [![Status](https://img.shields.io/badge/status-in--development-yellow)](https://github.com/Guns-lingers/factorio-modding-tools)
-[![Version](https://img.shields.io/badge/version-0.1.1--beta.1-blue)](https://github.com/Guns-lingers/factorio-modding-tools/releases)
+[![Version](https://img.shields.io/badge/version-1.0.0--beta.1-blue)](https://github.com/Guns-lingers/factorio-modding-tools/releases)
 [![Last Commit](https://img.shields.io/github/last-commit/Guns-lingers/factorio-modding-tools)](https://github.com/Guns-lingers/factorio-modding-tools/commits)
 [![Stars](https://img.shields.io/github/stars/Guns-lingers/factorio-modding-tools?style=social)](https://github.com/Guns-lingers/factorio-modding-tools/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -130,16 +130,10 @@ Or via VS Code UI:
       Choose the autocomplete suggestion language:
       - `ru` — Russian descriptions
       - `en` — English descriptions
-   - **`Show Hover Documentation`**
+   - **`Show Hover Documentation`** <span style="background:#f0ad4e;color:#fff;padding:2px 6px;border-radius:4px;font-size:0.9em;">🛠️ In development</span>  
       Show documentation in hover tooltips (`true`/`false`, default: `true`).
-   - **`Custom Keybindings`**
+   - **`Custom Keybindings`** <span style="background:#f0ad4e;color:#fff;padding:2px 6px;border-radius:4px;font-size:0.9em;">🛠️ In development</span>  
       Keybinding for the Create Mod Structure command. Leave empty to disable
-
-> Currently, there are no configurable settings via `settings.json`.  
-Behavior can be adjusted via source code:
-
-- `src/data.ts`
-- `schemas/info.schema.json`
 
 ---
 
@@ -154,21 +148,15 @@ Behavior can be adjusted via source code:
 
 ## 📝 Release Notes
 
-### 0.0.1
+### 1.0.0
 - Create Mod Structure command
 - `type = "..."` autocomplete in Lua
 - `info.json` schema support
-
-### 0.0.2
 - Localization autocomplete
 - Package Mod as ZIP command
-
-### 0.1.0
 - Full prototype field coverage (from Factorio’s data-raw dump)
 - Context-aware Lua completion inside `data:extend`
 - Filtering out fields you’ve already entered
-
-### 0.1.1
 - Added the ability to switch the language for autocomplete suggestions
 - Code snippets added
 - Extension settings added

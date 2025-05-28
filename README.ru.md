@@ -6,7 +6,7 @@ _Лучшее расширение для моддинга Factorio в VS Code_
 
 [![VS Code](https://img.shields.io/badge/VSCODE-Extension-blue?logo=visualstudiocode)](https://marketplace.visualstudio.com/)
 [![Status](https://img.shields.io/badge/status-in--development-yellow)](https://github.com/Guns-lingers/factorio-modding-tools)
-[![Version](https://img.shields.io/badge/version-0.1.1--beta.1-blue)](https://github.com/Guns-lingers/factorio-modding-tools/releases)
+[![Version](https://img.shields.io/badge/version-1.0.0--beta.1-blue)](https://github.com/Guns-lingers/factorio-modding-tools/releases)
 [![Last Commit](https://img.shields.io/github/last-commit/Guns-lingers/factorio-modding-tools)](https://github.com/Guns-lingers/factorio-modding-tools/commits)
 [![Stars](https://img.shields.io/github/stars/Guns-lingers/factorio-modding-tools?style=social)](https://github.com/Guns-lingers/factorio-modding-tools/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -133,16 +133,10 @@ code --install-extension factorio-modding-tools-0.0.1.vsix
       Выбор языка подсказок автодополнения:  
       - `ru` — русские описания  
       - `en` — английские описания  
-   - **`Show Hover Documentation`**  
+   - **`Show Hover Documentation`** <span style="background:#f0ad4e;color:#fff;padding:2px 6px;border-radius:4px;font-size:0.9em;">🛠️ В разработке</span>  
       Показывать документацию в подсказках при наведении (`true`/`false`, по умолчанию `true`).  
-   - **`Custom Keybindings`**  
+   - **`Custom Keybindings`** <span style="background:#f0ad4e;color:#fff;padding:2px 6px;border-radius:4px;font-size:0.9em;">🛠️ В разработке</span>  
       Сочетание клавиш для команды создания структуры мода. Оставьте пустым, чтобы отключить.  
-
-> На текущий момент не имеет пользовательских настроек через `settings.json`.  
-Всё поведение регулируется через правку исходников:
-
-- `src/data.ts`
-- `schemas/info.schema.json`
 
 ---
 
@@ -157,21 +151,15 @@ code --install-extension factorio-modding-tools-0.0.1.vsix
 
 ## 📝 История версий
 
-### 0.0.1
+### 1.0.0
 - Команда Create Mod Structure
 - Автокомплит `type = "..."` в Lua
 - Поддержка и схема `info.json`
-
-### 0.0.2
 - Автозаполнение локализации
 - Команда Package Mod as ZIP
-
-### 0.1.0
 - Добавлены все возможные прототипы (использовалось официальное API Factorion и файл `data-raw-dump.json`)
 - Контекстное Lua автодополнение внутри `data:extend`
 - Фильтрация уже введённых полей
-
-### 0.1.1
 - Добавлена возможность смены языка для подсказок автодополнения
 - Добавлены базовые Сниппеты (шаблоны кода)
 - Добавлены настройки расширения

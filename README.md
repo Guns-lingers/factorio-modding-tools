@@ -82,7 +82,7 @@ It allows one-click mod structure generation, speeds up work with Lua prototypes
 
 Or install manually:
 ```bash
-code --install-extension factorio-modding-tools-0.0.1.vsix
+code --install-extension factorio-modding-tools-1.0.0-beta.1.vsix
 ```
 
 Or via VS Code UI:
